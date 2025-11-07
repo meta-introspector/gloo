@@ -19,9 +19,9 @@ version = "0.3.31"
 features = ["Event", "EventTarget", "AddEventListenerOptions"]
 
 [dev-dependencies]
-js-sys = "0.3.31"
+js-sys = "0.3.82"
 futures = "0.3"
-wasm-bindgen-test = "0.3.4"
+wasm-bindgen-test = "0.3.55"
 
 [dev-dependencies.web-sys]
 version = "0.3.31"
