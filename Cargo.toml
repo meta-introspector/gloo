@@ -10,7 +10,7 @@ repository = "https://github.com/rustwasm/gloo"
 homepage = "https://gloo-rs.web.app/"
 documentation = "https://docs.rs/gloo/"
 categories = ["api-bindings", "wasm"]
-rust-version = "1.64"
+# rust-version = "1.64"
 
 [dependencies]
 gloo-timers = { version = "0.3", path = "crates/timers", optional = true }
@@ -59,27 +59,27 @@ history = ["gloo-history"]
 worker = ["gloo-worker"]
 net = ["gloo-net"]
 
-[workspace]
-members = [
-    "crates/timers",
-    "crates/events",
-    "crates/net",
-    "crates/file",
-    "crates/dialogs",
-    "crates/storage",
-    "crates/console",
-    "crates/utils",
-    "crates/history",
-    "crates/worker",
-    "crates/worker-macros",
-    "crates/net",
+#[workspace]
+# members = [
+#     "crates/timers",
+#     "crates/events",
+#     "crates/net",
+#     "crates/file",
+#     "crates/dialogs",
+#     "crates/storage",
+#     "crates/console",
+#     "crates/utils",
+#     "crates/history",
+#     "crates/worker",
+#     "crates/worker-macros",
+#     "crates/net",
 
-    "examples/markdown",
-    "examples/clock",
-    "examples/file-hash",
-    "examples/history-wasi",
-    "examples/prime",
-]
+#     "examples/markdown",
+#     "examples/clock",
+#     "examples/file-hash",
+#     "examples/history-wasi",
+#     "examples/prime",
+# ]
 
 # Passing arguments to the docsrs builder in order to properly document cfg's.
 # More information: https://docs.rs/about/builds#cross-compiling

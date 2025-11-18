@@ -9,3 +9,4 @@ examples/*/dist
 
 # hosting cache
 .firebase/hosting.*.cache
+process-repo.log
